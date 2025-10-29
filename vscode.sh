@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/
-curl -Los vscode.tar.gz https://code.visualstudio.com/sha/download?build=stable\&os=linux-x64
+curl -Lso vscode.tar.gz https://code.visualstudio.com/sha/download?build=stable\&os=linux-x64
 mkdir ~/VSCode
 tar -xf vscode.tar.gz -C ~/VSCode --strip-components=1
 rm vscode.tar.gz
